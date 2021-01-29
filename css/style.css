@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Paytone+One&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Carrois Gothic SC', sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(5, 5, 5);
+  line-height: 1.5;
+ font-size: 1em; 
+  
+} 
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+
+}
+
+h3{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  
+}
+
+p {
+  padding: 30px;
+  text-align: left;
+}
+
+a{ color: #c5fff3;
+
+}
+
+/* Navbar code adapted from W3Schools: https://www.w3schools.com/howto/howto_js_topnav.asp*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #40074b;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #1ae5be; text-decoration: underline; color: #010101;}
+  
+  ul.topnav li a.active {background-color: #1ae5be; text-decoration: underline; color: #010101;}
+  
+  ul.topnav li.right {float: right;}
+
+
+  footer{
+    background-color: #40074b;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #1ae5be;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
